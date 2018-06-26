@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Greenpool</string>
+
+    <string-array name="category">
+        <item>
+            Bike
+        </item>
+        <item>
+            Car
+        </item>
+    </string-array>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_editprofile"
+        android:icon="@drawable/baseline_person_add_24px"
+        android:title="Edit Profile"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_registervehicle"
+        android:src="@android:drawable/ic_menu_manage"
+        android:title="Vehicle Details"
+        app:showAsAction="never"/>
+
+    <!-- prefs -->
+    <item android:id="@+id/menu_signout"
+        android:icon="@drawable/ic_lock_power_off"
+        android:title="Signout"
+        app:showAsAction="never"/>
+
+</menu>
