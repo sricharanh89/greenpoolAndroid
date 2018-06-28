@@ -18,6 +18,24 @@
         android:layout_height="wrap_content"
         android:hint="To"
         android:id="@+id/toLocation"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Time Shedule"
+        android:id="@+id/time"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Same Gender Preference"
+        android:id="@+id/genderRef"/>
+
+    <Spinner
+        android:id="@+id/category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:hint="Category"/>
 
     <LinearLayout
         android:layout_width="match_parent"
