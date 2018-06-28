@@ -22,6 +22,12 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="Via Point"
+        android:id="@+id/viaPoint"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:hint="Seats Available"
         android:id="@+id/seatsCount"/>
 
@@ -30,6 +36,13 @@
         android:layout_height="wrap_content"
         android:hint="Time Shedule"
         android:id="@+id/time"/>
+
+    <Spinner
+        android:id="@+id/pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:hint="pay"/>
 
     <LinearLayout
         android:layout_width="match_parent"

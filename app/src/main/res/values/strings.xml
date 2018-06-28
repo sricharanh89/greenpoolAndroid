@@ -9,4 +9,12 @@
             Car
         </item>
     </string-array>
+    <string-array name="pay">
+        <item>
+            Paid
+        </item>
+        <item>
+            Non Paid
+        </item>
+    </string-array>
 </resources>
