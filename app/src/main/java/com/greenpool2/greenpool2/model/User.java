@@ -1,6 +1,7 @@
-package com.greenpool2.greenpool2;
+package com.greenpool2.greenpool2.model;
 
-import org.jetbrains.annotations.*;
+import org.jetbrains.annotations.NotNull;
+
 import java.io.Serializable;
 
 public class User implements Serializable {

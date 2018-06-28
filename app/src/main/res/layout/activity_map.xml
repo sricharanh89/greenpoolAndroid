@@ -4,33 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".VehicleRegistration" android:orientation="vertical">
-
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dip"
-        android:text="Category:"
-        android:layout_marginBottom="5dp"
-        />
-    <Spinner
-        android:id="@+id/category"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:spinnerMode="dropdown"
-        android:hint="Category"/>
+    tools:context=".MapActivity"
+    android:orientation="vertical">
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/model"
-        android:hint="Model"/>
+        android:hint="From:"
+        android:id="@+id/etOrigin"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/vehicleno"
-        android:hint="Registration No"/>
+        android:hint="To:"
+        android:id="@+id/etDestination"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Seats Available"
+        android:id="@+id/seatsCount"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Time Shedule"
+        android:id="@+id/time"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -40,18 +39,17 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Save"
-            android:drawableLeft="@android:drawable/ic_menu_save"
-            android:id="@+id/vsave"
+            android:text="Shedule Ride"
+            android:id="@+id/shareRide"
             android:backgroundTint="@android:color/holo_green_light"
             android:textColor="@android:color/black"/>
+
         <Button
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Cancel"
-            android:drawableLeft="@android:drawable/ic_menu_close_clear_cancel"
-            android:id="@+id/vcancel"
+            android:id="@+id/cancel"
             android:backgroundTint="@android:color/holo_red_light"
             android:textColor="@android:color/black"/>
     </LinearLayout>

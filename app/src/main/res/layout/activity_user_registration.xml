@@ -10,6 +10,11 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="SID"
+        android:id="@+id/sId"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:hint="First Name"
         android:id="@+id/firstName"/>
 
@@ -57,6 +62,7 @@
         android:hint="password"
         android:id="@+id/password"/>
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -67,14 +73,18 @@
             android:layout_height="wrap_content"
             android:text="Save"
             android:drawableLeft="@android:drawable/ic_menu_save"
-            android:id="@+id/save"/>
+            android:id="@+id/save"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:textColor="@android:color/black"/>
         <Button
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Cancel"
             android:drawableLeft="@android:drawable/ic_menu_close_clear_cancel"
-            android:id="@+id/cancel"/>
+            android:id="@+id/cancel"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:textColor="@android:color/white"/>
     </LinearLayout>
 
 </LinearLayout>

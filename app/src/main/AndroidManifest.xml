@@ -2,13 +2,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.greenpool2.greenpool2">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,7 +21,16 @@
             </intent-filter>
         </activity>
         <activity android:name=".UserRegistrationActivity" />
-        <activity android:name=".VehicleRegistration"></activity>
+        <activity android:name=".VehicleRegistration" />
+        <activity android:name=".RideHomeActivity" />
+        <activity android:name=".BaseActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCmbIii2qXWm6ybz3pHXkcrA_QZljzpdzc" />
+
+        <activity android:name=".MapActivity" />
+        <activity android:name=".JoinRideActivity"></activity>
     </application>
 
 </manifest>
